@@ -1,0 +1,19 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(pip install:*)",
+      "Bash(uv venv:*)",
+      "Bash(.venvScriptsactivate)",
+      "Bash(uv pip install:*)",
+      "Bash(.venv/Scripts/python.exe -m ipykernel install:*)",
+      "Bash(.venv/Scripts/python.exe:*)",
+      "Bash(jupyter kernelspec:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
+  "enabledMcpjsonServers": [
+    "workiq",
+    "ado",
+    "playwright"
+  ]
+}
