@@ -7,7 +7,17 @@
       "Bash(uv pip install:*)",
       "Bash(.venv/Scripts/python.exe -m ipykernel install:*)",
       "Bash(.venv/Scripts/python.exe:*)",
-      "Bash(jupyter kernelspec:*)"
+      "Bash(jupyter kernelspec:*)",
+      "Bash(kaggle competitions download:*)",
+      "Bash(python:*)",
+      "Bash(KAGGLE_API_TOKEN=\"KGAT_e1cbbd22436a438dda0df539f5b1600c\" kaggle competitions download -c playground-series-s6e2)",
+      "Bash(unzip:*)",
+      "mcp__ide__executeCode",
+      "Bash(python3:*)",
+      "Bash(.venv/Scripts/pip install:*)",
+      "Bash(wc -l:*)",
+      "Bash(git add:*)",
+      "Bash(git commit:*)"
     ]
   },
   "enableAllProjectMcpServers": true,
