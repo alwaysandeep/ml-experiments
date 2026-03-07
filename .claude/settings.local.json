@@ -35,7 +35,12 @@
       "Bash(\"/c/Users/schitta/AppData/Local/Programs/Ollama/ollama.exe\" list:*)",
       "Bash(\"/c/Users/schitta/AppData/Local/Programs/Ollama/ollama.exe\" pull qwen3-vl:8b)",
       "Bash(\"/c/Users/schitta/AppData/Local/Programs/Ollama/ollama.exe\" rm phi4:latest)",
-      "Bash(\"/c/Users/schitta/AppData/Local/Programs/Ollama/ollama.exe\" rm phi3:latest)"
+      "Bash(\"/c/Users/schitta/AppData/Local/Programs/Ollama/ollama.exe\" rm phi3:latest)",
+      "Bash(git -C \"C:\\\\Users\\\\schitta\\\\Downloads\\\\ml-experiments\" status)",
+      "Bash(git -C \"C:\\\\Users\\\\schitta\\\\Downloads\\\\ml-experiments\" log --oneline -3)",
+      "Bash(git -C \"C:\\\\Users\\\\schitta\\\\Downloads\\\\ml-experiments\" add experiments/transformer-from-scratch-lightning.ipynb)",
+      "Bash(git -C:*)",
+      "Bash(git -C \"C:\\\\Users\\\\schitta\\\\Downloads\\\\ml-experiments\" push origin main)"
     ]
   },
   "enableAllProjectMcpServers": true,
