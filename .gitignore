@@ -25,3 +25,11 @@ build/
 # OS
 .DS_Store
 Thumbs.db
+
+# Large data files
+*.csv
+*.zip
+*.parquet
+*.feather
+*.h5
+*.hdf5
